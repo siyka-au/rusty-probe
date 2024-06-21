@@ -6,6 +6,7 @@
 _autosave-*
 *.tmp
 *cache*
+*.lck
 
 # Netlist files (exported from Eeschema)
 *.net
