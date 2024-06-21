@@ -19915,7 +19915,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:DFN-6-1EP_1.2x1.2mm_P0.4mm_EP0.3x0.94mm_PullBack"
+		(property "Footprint" "dfn:DFN-6-1EP_1.2x1.2mm_P0.4mm_EP0.3x0.94mm_PullBack"
 			(at 241.3 132.08 0)
 			(effects
 				(font
