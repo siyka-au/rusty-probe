@@ -27001,7 +27001,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_EVQP2"
+		(property "Footprint" "pushbuttons:PCB_JumperButton"
 			(at 31.75 143.51 0)
 			(effects
 				(font
