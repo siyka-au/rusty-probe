@@ -1,0 +1,242 @@
+(footprint "PCB_JumperButton"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c8289385-4317-4f6f-a26e-8161f881e3ec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "PCB_JumperButton"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a527c199-b885-4aec-b318-0db656e70c47")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -0.25 -3.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ecd30a88-faf8-4e8c-8e20-edbbb6399729")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.25 -3.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c1badb9f-aa0c-4dab-90db-ae6756f84266")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -0.25 -3.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "08346dde-ce3a-4fb9-b9ef-3fbf18ff6f49")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 1.3675 -0.3)
+		(end -1.3675 -0.3)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.Mask")
+		(uuid "36e32638-0278-4696-91b6-afe90fe74817")
+	)
+	(fp_line
+		(start 1.3675 0.299984)
+		(end -1.3675 0.299984)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.Mask")
+		(uuid "9adeacd6-a2ec-4043-85ce-5b4f2072da63")
+	)
+	(fp_arc
+		(start -1.3675 -0.3)
+		(mid 0 -1.351718)
+		(end 1.3675 -0.3)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.Mask")
+		(uuid "9bdae858-f9e3-438e-9437-1d6c7a28ee1f")
+	)
+	(fp_arc
+		(start 1.3675 0.299984)
+		(mid 0 1.351702)
+		(end -1.3675 0.299984)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.Mask")
+		(uuid "5074d8db-2315-4652-9fed-390a5e1a8178")
+	)
+	(fp_poly
+		(pts
+			(xy -1.3675 0.299984) (xy -1 0.899984) (xy -0.6 1.199984) (xy 0 1.351702) (xy 0.6 1.199984) (xy 1 0.899984)
+			(xy 1.3675 0.299984)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "618f8171-2afe-44b4-9d93-46b48852566b")
+	)
+	(fp_poly
+		(pts
+			(xy 1.3675 -0.3) (xy 1 -0.9) (xy 0.6 -1.2) (xy 0 -1.351718) (xy -0.6 -1.2) (xy -1 -0.9) (xy -1.3675 -0.3)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "977013a1-4689-48a7-a2d5-9153b17bfe58")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3f4e2b81-9b31-4b98-b754-9368513255ed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 -0.00005)
+		(size 1 1)
+		(drill 1)
+		(layers "*.Mask")
+		(uuid "92fc7f27-b5a3-469e-b3b8-265f9cafb77c")
+	)
+	(pad "1" smd custom
+		(at 0 -1)
+		(size 0.8 0.8)
+		(layers "F.Cu")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_arc
+				(start -1.3675 0.7)
+				(mid 0 -0.351718)
+				(end 1.3675 0.7)
+				(width 0.2)
+			)
+			(gr_line
+				(start -0.5196 0.7)
+				(end -1.3675 0.7)
+				(width 0.2)
+			)
+			(gr_line
+				(start 0.5196 0.7)
+				(end 1.3675 0.7)
+				(width 0.2)
+			)
+			(gr_arc
+				(start -0.5196 0.7)
+				(mid 0 0.400009)
+				(end 0.5196 0.7)
+				(width 0.2)
+			)
+			(gr_poly
+				(pts
+					(xy 0.5196 0.7) (xy 1.3675 0.7) (xy 1 0.1) (xy 0.6 -0.2) (xy 0 -0.351718) (xy -0.6 -0.2) (xy -1 0.1)
+					(xy -1.3675 0.7) (xy -0.5196 0.7) (xy -0.3 0.4) (xy 0.3 0.4)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "78c58e4b-7e04-4a7e-930e-7fb67ea6d3bb")
+	)
+	(pad "2" smd custom
+		(at 0 1)
+		(size 0.8 0.8)
+		(layers "F.Cu")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_arc
+				(start 0.5196 -0.700016)
+				(mid 0 -0.400025)
+				(end -0.5196 -0.700016)
+				(width 0.2)
+			)
+			(gr_line
+				(start -0.5196 -0.700016)
+				(end -1.3675 -0.700016)
+				(width 0.2)
+			)
+			(gr_line
+				(start 0.5196 -0.700016)
+				(end 1.3675 -0.700016)
+				(width 0.2)
+			)
+			(gr_arc
+				(start 1.3675 -0.700016)
+				(mid 0 0.351702)
+				(end -1.3675 -0.700016)
+				(width 0.2)
+			)
+			(gr_poly
+				(pts
+					(xy -0.5196 -0.700016) (xy -1.3675 -0.700016) (xy -1 -0.100016) (xy -0.6 0.199984) (xy 0 0.351702)
+					(xy 0.6 0.199984) (xy 1 -0.100016) (xy 1.3675 -0.700016) (xy 0.5196 -0.700016) (xy 0.3 -0.400016)
+					(xy -0.3 -0.400016)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "e4e8cac4-f8c0-409c-be1c-156ded2d8fd8")
+	)
+)
