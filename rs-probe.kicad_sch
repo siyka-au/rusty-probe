@@ -16406,7 +16406,7 @@
 		(at 327.66 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "1ad2fb04-78d4-4602-b31b-2d4b39c1fc04")
@@ -16473,7 +16473,7 @@
 		(at 327.66 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "1c023e46-4787-48b1-8f1c-b9c75c157193")
@@ -17360,7 +17360,7 @@
 		(at 327.66 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "2a4b9f28-e5ff-408a-99d4-b56a8eaf7eaf")
@@ -17513,7 +17513,7 @@
 		(at 327.66 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "2f9a18d4-177d-4d34-901b-537cc37963da")
@@ -18577,7 +18577,7 @@
 		(at 298.45 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "4640d9e9-b954-49b5-bff5-410b00604ebb")
@@ -18942,7 +18942,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" "SBA0520Q or similar"
+		(property "MFPN" "RB161QS-40T18R"
 			(at 262.89 195.58 0)
 			(effects
 				(font
@@ -18951,7 +18951,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C2837790"
+			(at 262.89 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VfVr" "20V"
+			(at 262.89 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rectified Current" "500mA"
 			(at 262.89 195.58 0)
 			(effects
 				(font
@@ -19028,7 +19046,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" "SBA0520Q or similar"
+		(property "MFPN" "RB161QS-40T18R "
 			(at 186.69 137.16 0)
 			(effects
 				(font
@@ -19037,7 +19055,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C2837790"
 			(at 186.69 137.16 0)
 			(effects
 				(font
@@ -19995,7 +20013,7 @@
 		(at 327.66 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "667bf3a0-7423-4176-906a-84b9446cef95")
@@ -22299,7 +22317,7 @@
 				)
 			)
 		)
-		(property "Value" "74LVC1T45GM,115"
+		(property "Value" "74LVC1T45GM-Q100X"
 			(at 158.75 52.07 0)
 			(effects
 				(font
@@ -22334,7 +22352,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C548481, C548480, C548479"
+		(property "LCSC" "C548481"
 			(at 158.75 59.69 0)
 			(effects
 				(font
@@ -22343,7 +22361,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" "74LVC1T45GM,115"
+		(property "MFPN" "74LVC1T45GM-Q100X"
 			(at 158.75 59.69 0)
 			(effects
 				(font
@@ -22719,6 +22737,15 @@
 		)
 		(property "MFPN" "BLM15AX601SN1D"
 			(at 194.31 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C76886"
+			(at 194.31 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24675,7 +24702,7 @@
 				)
 			)
 		)
-		(property "Value" "74LVC1T45GM,115"
+		(property "Value" "74LVC1T45GM-Q100X"
 			(at 158.75 35.56 0)
 			(effects
 				(font
@@ -24710,7 +24737,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C548481, C548480, C548479"
+		(property "LCSC" "C548481"
 			(at 158.75 43.18 0)
 			(effects
 				(font
@@ -24719,7 +24746,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" "74LVC1T45GM,115"
+		(property "MFPN" "74LVC1T45GM-Q100X"
 			(at 158.75 43.18 0)
 			(effects
 				(font
@@ -25246,7 +25273,7 @@
 		(at 298.45 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "d21c310c-c826-4c20-a6da-9b82b7f83e73")
@@ -25413,7 +25440,7 @@
 				)
 			)
 		)
-		(property "Value" "74LVC1T45GM,115"
+		(property "Value" "74LVC1T45GM-Q100X"
 			(at 158.75 68.58 0)
 			(effects
 				(font
@@ -25448,7 +25475,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C548481, C548480, C548479"
+		(property "LCSC" "C548481"
 			(at 158.75 76.2 0)
 			(effects
 				(font
@@ -25457,7 +25484,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" "74LVC1T45GM,115"
+		(property "MFPN" "74LVC1T45GM-Q100X"
 			(at 158.75 76.2 0)
 			(effects
 				(font
@@ -26347,7 +26374,7 @@
 		(at 298.45 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "e40e0db1-7c7c-4c1e-b185-0e47ab1ffa3a")
@@ -26427,7 +26454,7 @@
 				)
 			)
 		)
-		(property "Value" "74LVC1T45GM,115"
+		(property "Value" "74LVC1T45GM-Q100X"
 			(at 158.75 19.05 0)
 			(effects
 				(font
@@ -26462,7 +26489,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C548481, C548480, C548479"
+		(property "LCSC" "C548481"
 			(at 158.75 26.67 0)
 			(effects
 				(font
@@ -26471,7 +26498,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" "74LVC1T45GM,115"
+		(property "MFPN" "74LVC1T45GM-Q100X"
 			(at 158.75 26.67 0)
 			(effects
 				(font
@@ -26742,7 +26769,7 @@
 				)
 			)
 		)
-		(property "Value" "74LVC1T45GM,115"
+		(property "Value" "74LVC1T45GM-Q100X"
 			(at 158.75 101.6 0)
 			(effects
 				(font
@@ -26777,7 +26804,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C548481, C548480, C548479"
+		(property "LCSC" "C548481"
 			(at 158.75 109.22 0)
 			(effects
 				(font
@@ -26786,7 +26813,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" "74LVC1T45GM,115"
+		(property "MFPN" "74LVC1T45GM-Q100X"
 			(at 158.75 109.22 0)
 			(effects
 				(font
@@ -27364,7 +27391,7 @@
 				)
 			)
 		)
-		(property "Value" "74LVC1T45GM,115"
+		(property "Value" "74LVC1T45GM-Q100X"
 			(at 158.75 85.09 0)
 			(effects
 				(font
@@ -27399,7 +27426,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C548481, C548480, C548479"
+		(property "LCSC" "C548481"
 			(at 158.75 92.71 0)
 			(effects
 				(font
@@ -27408,7 +27435,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" "74LVC1T45GM,115"
+		(property "MFPN" "74LVC1T45GM-Q100X"
 			(at 158.75 92.71 0)
 			(effects
 				(font
