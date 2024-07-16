@@ -12853,7 +12853,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" "LTST-C19HE1WT or  ‎IN-S66TBTRGB‎"
+		(property "MFPN" "LTST-C19HE1WT or ‎IN-S66TBTRGB‎"
 			(at 138.43 270.51 0)
 			(effects
 				(font
@@ -14821,6 +14821,15 @@
 			)
 		)
 		(property "Tolerance" "1%"
+			(at 196.85 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C105872"
 			(at 196.85 147.32 0)
 			(effects
 				(font
@@ -19046,7 +19055,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" "RB161QS-40T18R "
+		(property "MFPN" "RB161QS-40T18R"
 			(at 186.69 137.16 0)
 			(effects
 				(font
